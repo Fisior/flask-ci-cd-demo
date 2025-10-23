@@ -31,7 +31,7 @@ jobs:
 
       - name: Build docker image
         run: |
-          Docker build -t flask-ci-cd-demo .
+          docker build -t flask-ci-cd-demo .
 
       - name: Verify container starts
         run: |
